@@ -1,3 +1,0 @@
-Model,Test Loss,Test Accuracy (%),Final Train Loss,Final Validation Loss,Final Train Accuracy (%),Final Validation Accuracy (%)
-OneLayerFFNN,0.692,50.8,0.68,0.7,54.0,53.0
-TwoLayerFFNN,0.691,51.0,0.68,0.7,55.00000000000001,54.0
