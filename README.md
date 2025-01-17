@@ -1,4 +1,4 @@
-# Sentiment Analysis on IMDB Dataset
+#Performance Analysis of Deep Learning Models for Sentiment Classification Analysis on IMDB Dataset
 
 ## Overview
 This project evaluates the performance of six deep learning models (FFNNs, CNNs, LSTMs, BiLSTMs) for sentiment classification using the IMDB dataset. The study investigates the impact of optimizers (SGD, Adam, Adagrad) and training epochs on model performance.
