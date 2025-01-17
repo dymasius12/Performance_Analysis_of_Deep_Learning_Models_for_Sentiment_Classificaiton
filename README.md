@@ -3,6 +3,10 @@
 ## Overview
 This project evaluates the performance of six deep learning models (FFNNs, CNNs, LSTMs, BiLSTMs) for sentiment classification using the IMDB dataset. The study investigates the impact of optimizers (SGD, Adam, Adagrad) and training epochs on model performance.
 
+## Dataset
+We are using a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We provide a set of 25,000 highly polar movie reviews for training, and 25,000 for testing. There is additional unlabeled data for use as well. Raw text and already processed bag of words formats are provided. See the README file contained in the release for more details. 
+Credits: https://ai.stanford.edu/~amaas/data/sentiment/ 
+
 ## Key Findings
 1. **Adagrad Optimizer**: Best test accuracy (73.28%) and lowest test loss (0.572).
 2. **20 Epochs**: Balanced generalization with a test accuracy of 70.71% and test loss of 0.593.
